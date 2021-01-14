@@ -1,0 +1,52 @@
+    {
+ "type": "record",
+ "name": "MarketTick",
+ "fields": [
+  {
+   "name": "tradeVWAP",
+   "type": "double"
+  },
+  {
+   "name": "totalTradedVolume",
+   "type": "double"
+  },
+  {
+   "name": "dateTime",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  {
+   "name": "bestBidPrice",
+   "type": "double"
+  },
+  {
+   "name": "bestAskPrice",
+   "type": "double"
+  },
+  {
+   "name": "midPriceL1LOB",
+   "type": "double"
+  },
+  {
+   "name": "var99Price",
+   "type": "double"
+  },
+  {
+   "name": "time",
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+    {
+   "name": "ts",
+   "type": [
+    "long"
+   ],
+   "default": 1,
+   "logicalType": "timestamp-millis"
+  }
+ ]
+}
