@@ -29,3 +29,7 @@ WITH ( 'connector.type' = 'kafka',
 'format.type' = 'registry', 
 'format.registry.properties.schema.registry.url' = 'http://edge2ai-1.dim.local:7788/api/v1' );
 
+convert time to timestamp
+
+${<attribute-name>:toDate("MMM dd yyyy hh:mm:ss.SSS","GMT"):format("yyyy-MM-dd HH:mm:ss.SSS")}
+.SSS
