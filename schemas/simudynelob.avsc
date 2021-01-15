@@ -45,6 +45,20 @@
    {
    "name": "num2",
    "type": ["long"]
+  },
+    {
+   "name": "ts",
+   "type": [
+    "long"
+   ],
+   "default": 1,
+   "logicalType": "timestamp-millis"
+  },
+     {
+   "name": "uuid",
+   "type": [
+    "string"
+   ],"default": "1000"
   }
  ]
 }
