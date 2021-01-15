@@ -1,0 +1,50 @@
+{
+ "type": "record",
+ "name": "simudynelob",
+ "fields": [
+     {
+   "name": "time",
+   "type": ["string","null"]
+  },
+  {
+   "name": "sym",
+   "type": ["string","null"]
+  },
+  {
+   "name": "best_bid_prc",
+   "type": ["double"]
+  },
+  {
+   "name": "best_bid_vol",
+   "type": ["long"]
+  },
+     {
+   "name": "tot_bid_vol",
+   "type": ["long"]
+  },
+  {
+   "name": "num",
+   "type": ["long"]
+  },
+  {
+   "name": "sym2",
+   "type": ["string","null"]
+  },
+  {
+   "name": "best_ask_prc",
+   "type": ["double"]
+  },
+  {
+   "name": "best_ask_vol",
+   "type": ["long"]
+  },
+  {
+   "name": "tot_ask_vol",
+   "type": ["long"]
+  },
+   {
+   "name": "num2",
+   "type": ["long"]
+  }
+ ]
+}
