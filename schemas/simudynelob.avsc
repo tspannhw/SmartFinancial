@@ -4,7 +4,11 @@
  "fields": [
      {
    "name": "time",
-   "type": ["string","null"]
+   "type": [
+    "long"
+   ],
+   "default": 1,
+   "logicalType": "timestamp-millis"
   },
   {
    "name": "sym",
