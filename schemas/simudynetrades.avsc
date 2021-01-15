@@ -1,0 +1,43 @@
+{
+ "type": "record",
+ "name": "simudynetrades",
+ "fields": [
+  {
+   "name": "sym",
+   "type": ["string","null"]
+  },
+  {
+   "name": "prc",
+   "type": ["double"]
+  },
+  {
+   "name": "vol",
+   "type": ["long"]
+  },
+  {
+   "name": "bid_id",
+   "type": ["string","null"]
+  },
+  {
+   "name": "ask_id",
+   "type": ["string","null"]
+  },
+  {
+   "name": "buyer_id",
+   "type": ["string","null"]
+  },
+  {
+   "name": "seller_id",
+   "type": ["string","null"]
+  },
+  {
+   "name": "step",
+   "type": ["long"]
+  }
+   ,
+  {
+   "name": "time",
+   "type": ["string","null"]
+  }
+ ]
+}
