@@ -1,6 +1,19 @@
 # SmartFinancial
 Smart Financial FLaNK App
 
+# For Easy Setup
+
+git clone https://github.com/cloudera-labs/edge2ai-workshop
+
+Build a one node cluster
+
+git clone https://github.com/tspannhw/ApacheConAtHome2020
+
+Build all the Kafka topics and schemas
+
+https://github.com/tspannhw/ApacheConAtHome2020/blob/main/scripts/setup.sh
+
+
 # Queries
 
 select avg(best_bid_prc) as BestBidPrice
